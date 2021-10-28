@@ -1,0 +1,8 @@
+참고 사이트 : https://devangelma.tistory.com/332
+
+Node Js	          Ver_16.13.0 LTS
+Android-studio    Ver_2020.3.1.25
+	R | API Level 30 | Target : Android 11.0
+	해상도 : 1080 * 1920
+Java	15 
+Vscode
