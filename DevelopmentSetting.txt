@@ -1,4 +1,5 @@
 참고 사이트 : https://devangelma.tistory.com/332
+환경변수 설정 : https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95
 
 Node Js	          Ver_16.13.0 LTS
 Android-studio    Ver_2020.3.1.25
