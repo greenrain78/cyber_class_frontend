@@ -1,10 +1,10 @@
 import React from "react";
 import {StyleSheet, Text, View} from "react-native";
 
-export default function HomeScreen(){
+export default function CommunityScreen(){
     return(
         <View style = {styles.container}>
-            <Text>This is Home Screen!</Text>
+            <Text>This is Community Screen!</Text>
         </View>
     );
 }
