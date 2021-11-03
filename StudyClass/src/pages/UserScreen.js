@@ -1,19 +1,30 @@
-import React from "react";
-import {StyleSheet, Text, View} from "react-native";
+/*메인화면 Scene
+  앱 접속시 가장 기본으로되는 화면
+  */ 
 
-export default function UserScreen(){
+import React, {Component} from 'react';
+import{
+    StyleSheet,
+    Text,
+    View,
+    StatusBar
+}from 'react-native';
+
+export default function UserScreen(navigation){
     return(
-        <View style = {styles.container}>
-            <Text>This is User Screen!</Text>
+        <View style = {{
+            flex : 1,
+            alignItems : 'center',
+            justifyContent : 'center'
+        }}>
+            <Text
+                onPress = {() => navigation.navigate('Home')}
+                style = {{
+                    fontSize : 26, 
+                    fontWeight : 'bold'
+                    }}>
+                User Screen
+            </Text>
         </View>
     );
 }
-
-const styles = StyleSheet.create({
-    container : {
-        flex : 1,
-        backgroundColor : "#fff",
-        alignItems : "center",
-        justifyContent : "center"
-    }
-});
