@@ -1,5 +1,5 @@
 import React from "react";
-import {KeyboardAvoidingView, StyleSheet, Text, TextInput, View} from "react-native";
+import {KeyboardAvoidingView, StyleSheet, Text, TextInput, View, TouchableOpacity} from "react-native";
 
 export default function SignInScreen(){
     return(
@@ -22,6 +22,21 @@ export default function SignInScreen(){
                     secureTextEntry
                 />
             </View>
+
+            <View style = {styles.buttonContainer}>
+                <TouchableOpacity
+                    onPress = {() => { }}
+                    style = {styles.button}
+                >
+                    <Text style = {styles.button}>Login</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress = {() => { }}
+                    style = {[styles.button, styles.buttonOutline]}
+                >
+                    <Text style = {styles.buttonOutlineText}>Register</Text>
+                </TouchableOpacity>
+            </View>
         </KeyboardAvoidingView>
     );
 }
@@ -31,6 +46,6 @@ const styles = StyleSheet.create({
         flex : 1,
         backgroundColor : "#fff",
         alignItems : "center",
-        justifyContent : "center"
+        justifyContent : "center",
     }
 });
