@@ -7,6 +7,7 @@ import SignInScreen from './src/Sign/SignInScreen';
 export default function HomeScreen(){
     return(
       <SignInScreen/>
+      //<Bottom_Menu_Bar/>
     );
 }
 
