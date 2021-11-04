@@ -1,12 +1,11 @@
 import React from "react";
 import {StyleSheet, Text, View} from "react-native";
 
-import Bottom_Menu_Bar from './src/Menu_Bar/Bottom_Menu_Bar';
-import SignInScreen from './src/Sign/SignInScreen';
-
-export default function HomeScreen(){
+export default function SplashScreen(){
     return(
-      <SignInScreen/>
+        <View style = {styles.container}>
+            <Text>This is Splash Screen!</Text>
+        </View>
     );
 }
 
